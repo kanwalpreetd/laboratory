@@ -1,4 +1,4 @@
-FROM ubuntu:22.04 as build
+FROM ubuntu:24.04 as build
 
 MAINTAINER SDF Ops Team <ops@stellar.org>
 
@@ -20,7 +20,7 @@ RUN yarn install
 
 RUN yarn build
 
-FROM nginx:1.17
+FROM nginx:1.27
 
 COPY --from=build /app/build/ /usr/share/nginx/html/
 
