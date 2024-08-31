@@ -43,7 +43,7 @@
     "@trezor/connect-plugin-stellar": "^9.0.3",
     "@trezor/connect-web": "^9.2.4",
     "assert": "^2.1.0",
-    "axios": "^1.7.2",
+    "axios": "^1.7.4",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "browser-sync": "^3.0.2",
@@ -121,7 +121,7 @@
     "style-loader": "^3.3.3",
     "ts-loader": "^9.4.3",
     "tsconfig-paths-webpack-plugin": "^4.0.1",
-    "webpack": "^5.92.0",
+    "webpack": "^5.94.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
   }
